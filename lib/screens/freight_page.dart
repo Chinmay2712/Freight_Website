@@ -1,5 +1,4 @@
 import 'dart:convert';
-
 import 'package:flutter/material.dart';
 import 'package:intl/intl.dart';
 import 'package:http/http.dart' as http;
@@ -260,7 +259,7 @@ class _FreightPageState extends State<FreightPage> {
                                 borderRadius: BorderRadius.circular(8.0),
                               ),
                             ),
-                            onTap: () => _selectDate(context), // Open calendar
+                            onTap: () => _selectDate(context),
                           ),
                         ),
                       ],
@@ -448,11 +447,11 @@ class _FreightPageState extends State<FreightPage> {
                           width: 200,
                         ),
                         SizedBox(
-                          height: 150, // Adjust the height as needed
-                          width: 400, // Adjust the width as needed
+                          height: 150,
+                          width: 400,
                           child: Image.asset(
                             'container_image.png',
-                            fit: BoxFit.cover, // Ensures cropping and fitting
+                            fit: BoxFit.cover,
                           ),
                         ),
                       ],
@@ -474,14 +473,14 @@ class _FreightPageState extends State<FreightPage> {
                           ),
                         ),
                         child: const Row(
-                          mainAxisSize: MainAxisSize.min, // Ensures the button adjusts to content
+                          mainAxisSize: MainAxisSize.min,
                           children: [
                             Icon(
-                              Icons.search, // Search icon
+                              Icons.search,
                               color: Color(0xFF0139FF),
-                              size: 20, // Adjust size as needed
+                              size: 20,
                             ),
-                            SizedBox(width: 3), // Space between icon and text
+                            SizedBox(width: 3),
                             Text(
                               'Search',
                               style: TextStyle(

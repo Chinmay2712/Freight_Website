@@ -37,7 +37,7 @@ class _MainLayoutState extends State<MainLayout> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      backgroundColor: Color(0xffF6F9FC),
+      backgroundColor: const Color(0xffF6F9FC),
       body: Row(
         children: [
           Column(
@@ -89,7 +89,6 @@ class _MainLayoutState extends State<MainLayout> {
                       alignment: Alignment.bottomCenter,
                       child: GestureDetector(
                         onTap: () {
-                          // Navigate to Profile page
                           Navigator.push(
                               context,
                               MaterialPageRoute(
