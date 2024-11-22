@@ -15,7 +15,7 @@ This project is a Flutter-based application designed to help users search for th
 **3. Commodity and Cut-Off Date Selection:**
 - Dropdown to select commodity type.
 - Date picker for selecting the cut-off date.
-- 
+  
 **4. Shipment Type Selection:**
 - Options to choose between FCL (Full Container Load) and LCL (Less than Container Load) shipments.
 
